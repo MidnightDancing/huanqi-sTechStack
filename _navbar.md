@@ -15,7 +15,6 @@
 * 算法
 	* [算法](/algorithm/)
 	* [LeetCode](/leetcode/)
-* [Linux](/linux/)
 
 
 
