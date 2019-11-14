@@ -1,6 +1,7 @@
 * Java
 	* [Java基础](/java/elementary/)
 	* [Java集合](/java/collection/) 
+	* [Java多线程](/java/thread/)
 	* [JVM&GC](/java/gc/)
 * [Spring](/spring/)
 * [Redis](/redis/)
