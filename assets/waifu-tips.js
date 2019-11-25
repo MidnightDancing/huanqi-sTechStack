@@ -123,7 +123,7 @@ function showHitokoto(){
         var text = '这句一言来自 <span style="color:#0099cc;">『{source}』</span>，是 <span style="color:#0099cc;">{creator}</span> 在 hitokoto.cn 投稿的。';
         text = text.render({source: result.from, creator: result.creator});
         showMessage(result.hitokoto, 5000);
-        window.setTimeout(function() {showMessage(text, 3000);}, 5000);
+        window.setTimeout(function() {showMessage(result, 3000);}, 5000);
     });
 	/*
 	$.getJSON('https://api.fghrsh.net/hitokoto/rand/?encode=jsc&uid=3335',function(result){
